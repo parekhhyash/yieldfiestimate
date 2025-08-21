@@ -33,7 +33,7 @@ const ResultsCard: React.FC<ResultsCardProps> = ({ results, onClose }) => {
         <div className="p-6">
           {/* Header */}
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-900">🎉 Airdrop Results</h2>
+            <h2 className="text-2xl font-bold text-gray-900">🎉 Airdrop Estimate</h2>
             <button
               onClick={onClose}
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
