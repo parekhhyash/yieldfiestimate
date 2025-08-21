@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center h-16">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2 flex-shrink-0">
             <img 
@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
           </div>
           
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8 flex-1 justify-center">
+          <div className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
             <a href="#" className="text-accent hover:text-accent/80 transition-colors duration-200 font-medium">
               Home
             </a>
